@@ -1,7 +1,7 @@
 {
-  "name": "YOURAPPNAME",
-  "vendor": "vtex",
-  "version": "0.0.1",
+  "name": "ejemplo-custom",
+  "vendor": "puntocommerce",
+  "version": "0.0.2",
   "title": "CHANGEME",
   "description": "CHANGEME",
   "billingOptions": {
@@ -18,11 +18,11 @@
   "builders": {
     "react": "3.x",
     "store": "0.x",
-    "pixel": "0.x",
     "docs": "0.x"
   },
   "dependencies": {
-    "vtex.pixel-interfaces": "1.x"
+    "vtex.pixel-interfaces": "1.x",
+    "vtex.styleguide": "9.x"
   },
   "settingsSchema": {
     "title": "YOUR APP NAME",

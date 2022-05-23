@@ -1,5 +1,17 @@
 {
   "pixel.APPNAME": {
     "component": "index"
+  },
+
+  "home-activities": {
+    "component": "ActividadesEnCasa"
+  },
+
+  "login-master": {
+    "component": "Login"
+  },
+
+  "site-editor-test": {
+    "component": "imageSiteEditor"
   }
 }
