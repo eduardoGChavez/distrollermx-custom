@@ -33,7 +33,6 @@ const Login = () => {
             return;
         }
         
-        // const res = await fetch(`/api/dataentities/dataEmployee/search?_fields=usuario%2Ccontrasena&_where=usuario%3D${formLogin.user}&_schema=dataEmployee`);
         const res = await fetch(`/api/dataentities/dataEmployee/search?_where=usuario=${formLogin.user} AND contrasena=${formLogin.password}&_schema=dataEmployee`);
         const registrosVTable = await res.json();
 
